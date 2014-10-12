@@ -30,7 +30,7 @@ def input_handler(inp):
 myf = simplegui.create_frame("Myframe",500,500)
 myf.set_canvas_background("gray")
 myf.add_input('',input_handler,100)
-timer = simplegui.create_timer(200,tick)
+timer = simplegui.create_timer(2000,tick)
 myf.start()
 timer.start()
 myf.set_draw_handler(draw)
